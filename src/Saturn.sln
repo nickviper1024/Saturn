@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Interfaces", "Repository.Interfaces\Repository.Interfaces.csproj", "{F61FC2DC-CA6E-436B-ABDF-510F73BF286E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models.Interfaces", "ClassLibrary1\Models.Interfaces.csproj", "{28E5DFA3-B57C-4AB9-B1AB-A637D5730255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F61FC2DC-CA6E-436B-ABDF-510F73BF286E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61FC2DC-CA6E-436B-ABDF-510F73BF286E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61FC2DC-CA6E-436B-ABDF-510F73BF286E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61FC2DC-CA6E-436B-ABDF-510F73BF286E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E5DFA3-B57C-4AB9-B1AB-A637D5730255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E5DFA3-B57C-4AB9-B1AB-A637D5730255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E5DFA3-B57C-4AB9-B1AB-A637D5730255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E5DFA3-B57C-4AB9-B1AB-A637D5730255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
