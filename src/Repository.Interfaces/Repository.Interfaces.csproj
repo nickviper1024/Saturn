@@ -39,12 +39,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICrudRepository.cs" />
+    <Compile Include="IDocumentRepository.cs" />
+    <Compile Include="IFileRepository.cs" />
     <Compile Include="INfcRepository.cs" />
     <Compile Include="INoticeRepository.cs" />
+    <Compile Include="ISecurityRepository.cs" />
+    <Compile Include="IUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\Models.Interfaces.csproj">
+    <ProjectReference Include="..\Models.Interfaces\Models.Interfaces.csproj">
       <Project>{28e5dfa3-b57c-4ab9-b1ab-a637d5730255}</Project>
       <Name>Models.Interfaces</Name>
     </ProjectReference>

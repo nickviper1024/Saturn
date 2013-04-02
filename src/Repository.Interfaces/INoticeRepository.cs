@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ViperSoft.Saturn.Models.Interfaces;
+﻿using ViperSoft.Saturn.Models.Interfaces;
 
-namespace Repository.Interfaces
+namespace ViperSoft.Saturn.Repository.Interfaces
 {
-    public interface INoticeRepository
+    public interface INoticeRepository : ICrudRepository<INotice>
     {
-        INotice GetById(long noticeId);
         
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Repository.Interfaces
+﻿namespace ViperSoft.Saturn.Repository.Interfaces
 {
     public interface INfcRepository : INoticeRepository
     {
